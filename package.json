@@ -7,9 +7,13 @@
   "name": "india_api_pincodes",
   "description": "\"This repository provides a Node.js solution for retrieving comprehensive details about pin codes in india through an API. The tool allows users to access a wide array of information associated with pin codes, including Officename    | Pincode | OfficeType | Deliverystatus | Divisionname | Regionname | Circlename | Taluk | Districtname | Statename | Telephone | Related Suboffice | Related Headoffice | Longitude | Latitude \"",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "app.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "run": "nodemon app.js",
+    "start": "node app.js"
+
   },
   "repository": {
     "type": "git",
